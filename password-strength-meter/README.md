@@ -64,3 +64,8 @@ export class AppModule { }
 | enableFeedback    | Input()  | boolean  |                           false                            | to show/hide the suggestions and warning messages                                                                       |
 | colors            | Input()  | string[] | ['darkred', 'orangered', 'orange', 'yellowgreen', 'green'] | to overide the meter colors, password strength range is 0 - 4, for strength 0 equals first color in the array and so on |
 | strengthChange    | Output() |  number  |                             -                              | emits the strength of the provided password in number -> range 0 - 4                                                    |
+
+
+```
+This updated README provides a more comprehensive and user-friendly guide to installing and using the Password Strength Meter in Angular 6 applications.
+```
